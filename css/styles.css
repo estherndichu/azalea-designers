@@ -14,7 +14,7 @@
   }
   .card{
     padding: 10px;
-    background-color: #f2f2f2f2;
+    background-color: #cdd0cb;
 
   }
   #about{
@@ -296,4 +296,8 @@
     #part1 {
         height: 250px
     }
+}
+
+.text-1{
+    color: black !important;
 }

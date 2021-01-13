@@ -17,6 +17,13 @@
 
      
   }
+  body {
+    background-color: #cdd0cb;
+}
+h2 {
+    text-align: center;
+    font-family: 'Yeon Sung', cursive;
+}
 
   .card-img-top{
       height: 300px;
@@ -312,9 +319,6 @@
 .text-1{
     color: black !important;
 }
-<<<<<<< HEAD
->>>>>>> ft-kids-wear
-=======
 .carousel-item{
     font-style: italic;
     font-size: 25px;
@@ -330,4 +334,4 @@
 #output{
     color: black;
 }
->>>>>>> stephen
+

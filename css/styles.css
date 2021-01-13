@@ -7,6 +7,9 @@
       color:white;
       font-weight: bolder;
       text-align: center;
+      top: 300px;
+      position: relative;
+      font-family: "Helvetica Neue";
   }
   .card-img-top{
       height: 300px;
@@ -300,4 +303,16 @@
 
 .text-1{
     color: black !important;
+}
+.carousel-item{
+    font-style: italic;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navbar { 
+  overflow: hidden;
+  background-color: #cdd0cb;
+  position: fixed !important;
+  top: 0;
+  width: 100%;
 }

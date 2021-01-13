@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
+ <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous"> -->
  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
@@ -13,29 +13,54 @@
     <title>AZALEA DESIGNERS</title>
 </head>
 <body>
+  
+<nav class="navbar navbar-expand-sm sticky-top navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">Azalea</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbar1">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar1">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Women Collections</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Men Collections</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Children Collections</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
     <div class="container-fluid">
+      
         <div class="jumbotron">
-            <div class="pos-f-t">
-                <div class="collapse" id="navbarToggleExternalContent">
-                  <div class="bg-dark p-4">
-                    <h4 class="text-white">Collapsed content</h4>
-                    <span class="text-muted">Toggleable via the navbar brand.</span>
-                  </div>
-                </div>
-                <nav class="navbar navbar-dark bg-dark">
-                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          
+          <!-- <div class="pos-f-t">
+            <div class="collapse" id="navbarToggleExternalContent">
+              <div class="bg-dark p-4">
+                <h4 class="text-white">Collapsed content</h4>
+                <span class="text-muted">Toggleable via the navbar brand.</span>
+              </div>
+            </div>
+            <nav class="navbar navbar-dark bg-dark">
+              <b/nav>
+              </utton class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                </nav>
-              </div>
+                <div> -->
             </br>
           </br>
-            <h1 class="display-4" id="welcome">Welcome to Azalea Collections!</h1>
+            <h1 class="display-4" id="welcome">Welcome to Azalea Collections</h1>
             <p class="lead" id="welcome">Welcome to Azalea the home of fashion where we beleive in quality desings that are affordable.</p>
             <hr class="my-4">
-            <p class="lead">
-              <!-- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> -->
-            </p>
+            
           </div>
     </div>
     <div class="container-fluid mt-4">
@@ -81,15 +106,50 @@
           <p class="card-text"></p>
       </div>
     </div>
-    <!-- <div class="container-fluid mt-4">
+    <div class="container-fluid mt-4">
       <div class="card" id="reviews">
         <div class="card-body">
           <h5 class="card-title">Reviews</h5>
           
-          
+          <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <!-- <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li> -->
+              <!-- <li data-target="#carouselExampleIndicators" data-slide-to="1"></li> -->
+              <!-- <li data-target="#carouselExampleIndicators" data-slide-to="2"></li> -->
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="d-block w-100">
+                <p>"I needed a quality design to attend a wedding of my dauther and Azalea gave the best."</p>
+            
+              <p> Msr. Kathy</p>
+              </div>
+              </div>
+              <div class="carousel-item">
+                <!-- <img class="d-block w-100" src="./images/men-collection.webp" alt="Second slide"> -->
+                <p>"No better place than Azalean for family shopping. I can't wait for winter to visit there are select my next oufit."</p>
+            
+              <p> Mr. David</p>
+              </div>
+              <div class="carousel-item">
+                <!-- <img class="d-block w-100" src="./images/women-collection.jpg" alt="Third slide"> -->
+                <p>"Azalea collections is the reason I rock out always, I can never get enough of their unique designs." </p>
+              <p> Ms Keen</p>
+              </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
       </div>
       </div>
-    </div> -->
+    </div>
     
 
     <div class="container-fluid mt-4">
@@ -98,7 +158,7 @@
               <div class="card-body" style="background-color: #f4f4f4">
                 <div class="bg"><h2>Contact us</h2>
                   <div class= "container mt-4 text-white w-50 p-3">
-                    <form id="contact-form" class="text-white" action="submit.php" method="post"  role="form">
+                    <form id="contact-form" class="text-white"  role="form">
       
                       <div class="messages"></div>
                 
@@ -128,15 +188,16 @@
                               </div>
                           </div>
                               
-                              <div class="col-md-12">
-                                  <input type="submit" class="btn btn-success btn-send" value="Send message">
-                              </div>
-                          
+                          <div class="col-md-12">
+                            <input type="submit" class="btn btn-success btn-send" value="Send message">
+                        </div>
                               <div id="output"> </div>
       
                       </div>
                   
                   </form>
+                </br>
+                  <a href="http://eepurl.com/hm-VxX">Sign up here for design updates</a>
                   </div>
       
       
@@ -182,5 +243,7 @@
     
     <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
 </body>
 </html>

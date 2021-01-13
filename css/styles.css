@@ -59,16 +59,16 @@
     height: 280px;
     position: relative;
     left: 8%;
-    top: 30px
+    top: 30px;
 }
 
 #sitelink {
     font-size: 35px;
-    color: #f44336
+    color: white;
 }
 
 #sitelink:hover {
-    color: #e65100
+    color: #e65100;
 }
 
 #title {
@@ -80,7 +80,7 @@
 
 #detail {
     color: #aaa7a7;
-    font-size: 16px
+    font-size: 16px;
 }
 
 #explore {
@@ -88,7 +88,7 @@
     height: 280px;
     position: relative;
     top: -235px;
-    left: 29%
+    left: 29%;
 }
 
 #txt1,
@@ -97,7 +97,7 @@
 #txt4,
 #txt5 {
     color: white;
-    font-size: 20px
+    font-size: 20px;
 }
 
 .link {
@@ -106,14 +106,14 @@
     height: 40px;
     color: #aaa7a7;
     background-color: transparent;
-    border-top: 2px solid white;
+    /* border-top: 2px solid white; */
     position: relative;
-    top: -10px
+    top: -10px;
 }
 
 .link:hover,
 .link1:hover {
-    color: #e65100
+    color: #e65100;
 }
 
 #visit {
@@ -121,13 +121,13 @@
     height: 280px;
     position: relative;
     top: -515px;
-    left: 42%
+    left: 42%;
 }
 
 .text {
     color: #aaa7a7;
     font-size: 14px;
-    margin-top: -10px
+    margin-top: -10px;
 }
 
 #legal {
@@ -135,7 +135,7 @@
     height: 280px;
     position: relative;
     top: -800px;
-    left: 59.5%
+    left: 59.5%;
 }
 
 .link1 {
@@ -144,10 +144,10 @@
     height: 40px;
     color: #aaa7a7;
     background-color: transparent;
-    border-top: 2px solid white;
+    /* border-top: 2px solid white; */
     position: relative;
     top: -10px;
-    margin-top: 7px
+    margin-top: 7px;
 }
 
 #subscribe {
@@ -155,23 +155,23 @@
     top: -1080px;
     left: 78%;
     width: 14%;
-    height: 280px
+    height: 280px;
 }
 
 #email {
     color: white;
     position: relative;
-    top: -20px
+    top: -20px;
 }
 
 .btn {
     position: relative;
-    top: -10px
+    top: -10px;
 }
 
 #txt5 {
     position: relative;
-    top: 0px
+    top: 0px;
 }
 
 .social {
@@ -179,19 +179,19 @@
     top: -5px;
     margin-right: 10px;
     color: white;
-    cursor: pointer
+    cursor: pointer;
 }
 
 .fa-facebook-square:hover {
-    color: #3B579D
+    color: #3B579D;
 }
 
 .fa-linkedin:hover {
-    color: #007BB6
+    color: #007BB6;
 }
 
 .fa-twitter-square:hover {
-    color: #2CAAE1
+    color: #2CAAE1;
 }
 
 #txt6 {
@@ -200,32 +200,33 @@
     top: 13px;
     left: 8%;
     width: 80%;
-    color: #aaa7a7
+    color: #aaa7a7;
+    text-align: center;
 }
 
 .material-icons {
     position: relative;
-    top: 3px
+    top: 3px;
 }
 
 @media only screen and (max-width:1000px) {
     #companyinfo {
-        width: 20%
+        width: 20%;
     }
 
     #sitelink {
-        font-size: 30px
+        font-size: 30px;
     }
 
     #txt5,
     #txt4 {
-        font-size: 17px
+        font-size: 17px;
     }
 
     #txt5,
     .social {
         position: relative;
-        top: -5px
+        top: -5px;
     }
 }
 
@@ -237,7 +238,7 @@
 
     #txt6 {
         position: relative;
-        left: 3%
+        left: 3%;
     }
 
     #txt1,
@@ -245,7 +246,7 @@
     #txt3,
     #txt4,
     #txt5 {
-        font-size: 15px
+        font-size: 15px;
     }
 
     #explore {
@@ -255,45 +256,45 @@
     }
 
     #sitelink {
-        font-size: 25px
+        font-size: 25px;
     }
 
     #detail {
-        font-size: 13px
+        font-size: 13px;
     }
 
     .link {
-        width: 60px
+        width: 60px;
     }
 
     #visit {
         position: relative;
         top: -520px;
-        left: 37%
+        left: 37%;
     }
 
     .text {
-        font-size: 13px
+        font-size: 13px;
     }
 
     #legal {
         position: relative;
         top: -800px;
-        left: 54%
+        left: 54%;
     }
 
     #subscribe {
         position: relative;
         top: -1080px;
         left: 76%;
-        width: 20%
+        width: 20%;
     }
 
     #txt5,
     .social {
         position: relative;
         left: -110%;
-        top: px
+        top: 500px;
     }
 
     #email,

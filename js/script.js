@@ -1,3 +1,4 @@
+
 $(document).ready(function() {
     $("form#contact-form").on("submit", function(event) {
         event.preventDefault();
@@ -13,6 +14,11 @@ $("form#feedback-form").on('submit', function(event) {
     event.preventDefault();
     let user_name = $("input#user_name").val();
     let feedback = $("textarea#feedback").val();
+
+    localStorage.setItem("user", user_name);
+    localStorage.setItem("feedback", feedback);
+
+
 
     $("#review").append("<div class='carousel-item'>"+"<p>"  + feedback + "</p> "+"<p>" + user_name + "</p>"+"</div>" );
 

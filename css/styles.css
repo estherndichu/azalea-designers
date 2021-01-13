@@ -1,7 +1,8 @@
 .jumbotron {
-    background-image: url("../images/photo.jpeg");
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../images/photo.jpeg");
     background-size: cover;
-    height: 800px;
+    height: 800px;  
+
   }
   #welcome{
       color:white;
@@ -10,7 +11,12 @@
       top: 300px;
       position: relative;
       font-family: "Helvetica Neue";
+
+
+
+     
   }
+
   .card-img-top{
       height: 300px;
 
@@ -315,4 +321,7 @@
   position: fixed !important;
   top: 0;
   width: 100%;
+}
+#output{
+    color: black;
 }

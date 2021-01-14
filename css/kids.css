@@ -1,33 +1,4 @@
-div.gallery {
-    margin: 40px;
-    border: 8px solid gainsboro;
-    float: left;
-    width: 300px;
-  }
-  
-  
-  div.gallery img {
-    width: 200px;
-    height: 200px;
-  }
-  
-  div.desc {
-    padding: 10px;
-    text-align: center;
-  }
-  div.head{
-    text-align: center;
-    font-size: 20px;
-    top: -3px;
-}
-body{
-  color: black;
-}
-.col-md-3{
-  display: inline-block;
-  padding: 10px;
-  margin-left: 100px;
-}
+
 .head{
   padding: 50px;
 }
@@ -140,7 +111,6 @@ body{
   height: 40px;
   color: #aaa7a7;
   background-color: transparent;
-  /* border-top: 2px solid white; */
   position: relative;
   top: -10px;
   margin-top: 7px;
@@ -204,3 +174,4 @@ body{
   position: relative;
   top: 3px;
 }
+

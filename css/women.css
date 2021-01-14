@@ -158,3 +158,18 @@
 .fa-twitter-square:hover {
     color: #2CAAE1;
 }
+
+#txt6 {
+    color: white;
+    position: relative;
+    top: 13px;
+    left: 8%;
+    width: 80%;
+    color: #aaa7a7;
+    text-align: center;
+}
+
+.material-icons {
+    position: relative;
+    top: 3px;
+}

@@ -1,4 +1,6 @@
-
+body {
+    background-color: lightgrey;
+}
 h2 {
     text-align: center;
     font-family: 'Yeon Sung', cursive;

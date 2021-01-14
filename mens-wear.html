@@ -37,6 +37,11 @@
                     <a class="nav-link" href="kids.html">Children Collections</a>
                   </li>
                 </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="cart.html">cart</a>
+                    </li>
+                  </ul>
               </div>
             </div>
           </nav>
@@ -50,7 +55,7 @@
                         <h3 class="card-text">Valentino</h3>
                         <p class="card-text">Bussiness casual menswear</p>
                         <p class="card-text">$450 - $650</p>
-                        <button><a href="form.html">Buy now</a></button>
+                        <button onClick="cartLS.add({id: 1, name: 'Valentino', price: 450})">Buy now</a></button>
                     </div>
                 </div>
             </div>
@@ -61,7 +66,7 @@
                         <h3 class="card-text">Fendi</h3>
                         <p class="card-text">Mens casual wear</p>
                         <p class="card-text">$350 - $500</p>
-                        <button><a href="form.html">Buy now</a></button>
+                        <button onClick="cartLS.add({id: 2, name: 'Fendi', price: 100000})">Buy now</a></button>
                     </div>
                 </div>
             </div>
@@ -72,7 +77,7 @@
                         <h3 class="card-text">Givenchy</h3>
                         <p class="card-text">Casual wear for men</p>
                         <p class="card-text">$250 - $450</p>
-                        <button><a href="form.html">Buy now </a></button>
+                        <button onClick="cartLS.add({id: 3, name: 'Givenchy',price: 280})">Buy now </a></button>
                     </div>
                 </div>
             </div>
@@ -83,7 +88,7 @@
                         <h3 class="card-text">Emporio</h3>
                         <p class="card-text">Casual outfits for men</p>
                         <p class="card-text">$240 - $350</p>
-                        <button><a href="form.html">Buy now</a></button>
+                        <button onClick="cartLS.add({id: 4, name: 'Emporio',  price: 320})">Buy now</a></button>
                     </div>
                 </div>
             </div>
@@ -96,7 +101,7 @@
                         <h3 class="card-text">Boss</h3>
                         <p class="card-text">casual wear for men</p>
                         <p class="card-text">$300 - $450</p>
-                        <button><a href="form.html">Buy now</a></button>
+                        <button onClick="cartLS.add({id: 5, name: 'Boss',  price: 330})">Buy now</a></button>
                     </div>
                 </div>
             </div>
@@ -108,7 +113,7 @@
                         <h3 class="card-text">Alexander Mcqueen</h3>
                         <p class="card-text">Bussiness attire for men</p>
                         <p class="card-text">$450 - $600</p>
-                        <button><a href="form.html">Buy now</a></button>
+                        <button onClick="cartLS.add({id: 6, name: 'Alexander Mcqueen', price: 300})">Buy now</a></button>
                     </div>
                 </div>
             </div>
@@ -120,7 +125,7 @@
                         <h3 class="card-text">Boss Hugo Boss</h3>
                         <p class="card-text">Bussiness wear for men</p>
                         <p class="card-text">$450 - $700</p>
-                        <button><a href="form.html">Buy now</a></button>
+                        <button onClick="cartLS.add({id: 7, name: 'Boss Hugo Boss',price: 360})">Buy now</a></button>
                     </div>
                 </div>
             </div>
@@ -131,7 +136,7 @@
                         <h3 class="card-text">Boss</h3>
                         <p class="card-text">Mens official bussiness wear</p>
                         <p class="card-text">$650 - $800</p>
-                        <button><a href="form.html">Buy now</a></button>
+                        <button onClick="cartLS.add({id: 8, name: 'Boss',  price: 300})">Buy now</a></button>
                     </div>
                 </div>
             </div>
@@ -144,7 +149,7 @@
                         <h3 class="card-text">Brunello Cucinelli</h3>
                         <p class="card-text">Classic 3-piece suits</p>
                         <p class="card-text">$700 - $900</p>
-                        <button><a href="form.html">Buy now</a></button>
+                        <button onClick="cartLS.add({id: 9, name: 'Brunello Cucinelli',  price: 300})"><a href="form.html">Buy now</a></button>
                     </div>
                 </div>
             </div>
@@ -155,7 +160,7 @@
                         <h3 class="card-text">Afro house</h3>
                         <p class="card-text">African design mens wear</p>
                         <p class="card-text">$450 - $600</p>
-                        <button><a href="form.html">Buy now</a></button>
+                        <button onClick="cartLS.add({id: 10, name: 'Afro house', price: 300})">Buy now</a></button>
                     </div>
                 </div>
             </div>
@@ -166,7 +171,7 @@
                         <h3 class="card-text">Valentino</h3>
                         <p class="card-text">Casual mens wear</p>
                         <p class="card-text">$200 - $350</p>
-                        <button><a href="form.html">Buy now</a></button>
+                        <button onClick="cartLS.add({id: 11, name: 'Valentino', price: 300})">Buy now</a></button>
                     </div>
                 </div>
             </div>
@@ -177,13 +182,53 @@
                         <h3 class="card-text">Boss</h3>
                         <p class="card-text">Official wear</p>
                         <p class="card-text">$500 - $700</p>
-                        <button><a href="form.html">Buy now</a></button>
+                        <button onClick="cartLS.add({id: 12, name: 'Boss', name: 'Thick-crust', price: 300})">Buy now</a></button>
                     </div>
                 </div>
             </div>
         </div>
 
     </div>
+    <div class="container">
+        <div class="card col-md-12 shadow-sm">
+            <div class="card-header">
+                <h2 class="text-center">Shopping cart</h2>
+            </div>
+            <div class="card-body">
+                <table class="table col-sm-12">
+                    <thead>
+                        <th>ID</th>
+                        <th>DRESS NAME</th>
+                        <th>QUANTITY</th>
+                        <th>ADD</th>
+                        <th>REDUCE</th>
+                        <th class="text-right">PRICE</th>
+                    </thead>
+                    <tbody class="cart">
+                    </tbody>
+                    <tfoot>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="text-right">Total: <strong class="total"></strong></td>
+                        <td></td>
+                    </tfoot>
+                    <tr>
+                        <td>   Delivery :<input type="checkbox" id="deliver"></td>
+                    
+                        <td><button id="btn" class="btn btn-primary" class="col-sm-1" onclick="delivering()" >Checkout</button></td>
+                        <td>
+                            
+                        </td>
+                        </tr>
+                </table>
+            </div>
+        </div>
+    
+    </div>
+
     <div class="container-fluid mt-4" id="container">
         <div id="part1">
           <div id="companyinfo"> <a id="sitelink" href="#">Azalea Collections</a>
@@ -213,7 +258,7 @@
           </p>
         </div>
       </div>
-
+      <script src="https://unpkg.com/cart-localstorage@1.1.4/dist/cart-localstorage.min.js" type="text/javascript"></script>
     <script src="https://code.jquery.com/jquery-3.5.1.js"
         integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>

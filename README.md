@@ -1,4 +1,4 @@
-# DELANI STUDIO
+# AZALEA DESIGNS
 ![Azalea Designs](./images/azalea.png)
 #### Authors
 ### 1. [Esther Ndichu](https://github.com/estherndichu)

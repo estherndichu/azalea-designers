@@ -18,7 +18,7 @@ This is an application that brings together lovers of fashion. Designers get a p
 * User can access a wide range of designer clothes by different designers/tailors.
 * Designers get to showcase their amazing designs.
 * Clients can buy whatever item they are interested in.
-* Click on this link to see the application : https://github.com/estherndichu/azalea-designers.git
+* Click on this link to see the application : https://estherndichu.github.io/azalea-designers/
 ## Technologies Used
 This application has been built using 
 * HTML

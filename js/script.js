@@ -45,7 +45,7 @@ function renderCart(items) {
                     <button type="button" class="btn btn-block btn-sm btn-outline-primary"
                         onClick="cartLS.quantity(${item.id},-1)">-</button>
                 </td>
-                <td class="text-right" class="col-sm-1">Ksh${item.price}</td>
+                <td class="text-right" class="col-sm-1">$${item.price}</td>
                 <td class="text-right"><Button class="btn btn-primary" class="col-sm-1" onClick="cartLS.remove(${item.id})">Delete</Button></td>
             </tr>
            

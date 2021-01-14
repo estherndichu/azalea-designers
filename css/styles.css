@@ -17,6 +17,14 @@
 
      
   }
+  .top{
+      padding: 70px;
+      text-align: center;
+  }
+  #first img{
+        background-size: cover;
+        
+  }
   body {
     background-color: #cdd0cb;
 }

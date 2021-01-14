@@ -1,12 +1,11 @@
 # DELANI STUDIO
 ![Azalea Designs](./images/azalea.png)
-#### This is a portfolio for a web design studio called Delani.
-#### By 
+#### Authors
 ### 1. [Esther Ndichu](https://github.com/estherndichu)
 ### 2. [Stephen Ndele](https://github.com/stephenndele)
 ### 3. [Naaman Sang](https://github.com/naamansang)
 ### 4. [Felix Chegero](https://github.com/chegrofelix)
-### 5. [Bramuel Amariati] (https://github.com/Atsalibram)
+### 5. [Bramuel Amariati](https://github.com/Atsalibram)
 ### 6. [David Ngugi](https://github.com/Drongo-1)
 ## Description
 This is an application that brings together lovers of fashion. Designers get a platform to showcase their designs. Potential clients get to have a range of options to choose from.
@@ -29,5 +28,4 @@ This application has been built using
 * Jquery
 ## Support and contact details
 For any queries or further clarification on the directions to use the application, contact via email:itskuijenga@gmail.com
-### License
- ### [Licence](./licence)
+ ### [License](./licence)

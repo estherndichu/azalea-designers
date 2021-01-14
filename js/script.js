@@ -1,2 +1,3 @@
 
+window.load=doShowAll();
 

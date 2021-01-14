@@ -1,0 +1,13 @@
+body {
+    background-color: lightgrey;
+}
+h2 {
+    text-align: center;
+    font-family: 'Yeon Sung', cursive;
+}
+button {
+    color: green;
+    background-color: lightgrey;
+}
+
+

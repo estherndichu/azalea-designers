@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 $(document).ready(function() {
     $("form#contact-form").on("submit", function(event) {
         event.preventDefault();
@@ -28,3 +29,6 @@ $("form#feedback-form").on('submit', function(event) {
 // $("#review").append("<div class='carousel-item'</div>"  + "<div class='controls'" + feedback);
 // })
 });
+=======
+
+>>>>>>> ft-mens-wear-page
